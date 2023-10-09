@@ -29,3 +29,51 @@ header {
   font-size: 1.6rem;
   text-transform: uppercase;
 }
+
+main {
+  background-image: url('../images/people.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 1.25rem;
+}
+
+.form-container {
+  max-width: 14.3rem;
+  background-color: #ffffffbb;
+  padding: 1.25rem;
+  float: right;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+button {
+  background-color: #48c5ce;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+  font-weight: 700;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('../images/arrow.jpg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+}

@@ -77,3 +77,29 @@ select {
   background-repeat: no-repeat;
   background-position: calc(100% - 10px) center;
 }
+
+footer {
+  background-color: #202121;
+  padding: 40px;
+  text-align: center;
+}
+
+.picture {
+  width: 160px;
+}
+
+.description {
+  display: inline-block;
+  color: #ffffff;
+  text-align: left;
+  max-width: 40%;
+  margin-left: 40px;
+}
+
+.description :is(p, h3) {
+  margin-bottom: 20px;
+}
+
+.description > h3 {
+  font-size: 24px;
+}
